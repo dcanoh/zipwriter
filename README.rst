@@ -5,20 +5,19 @@ zipwriter
 
  author   : Alexey Melnichuk <alexeymelnichuck@gmail.com>
  version  : 0.1.2
- website  : http://moteus.github.io/ZipWriter/
- arch     : x86
- binaries : windows
  license  : MIT/X11 
+ website  : http://moteus.github.io/ZipWriter/
 
 Library for creating ZIP archive for Lua 5.1/5.2/5.3
 
 ==================  ================================================================================
-  Depends:           ``zlib struct bit32``
   Documentation:     http://lualanes.github.io/lanes
 ==================  ================================================================================
+  Depends:           ``zlib struct bit32``
+  architectures:     ``x86``
+  platforms:         ```windows``
+==================  ================================================================================
 ----------------------------------------------------------------------------------------------------
-
-
 
 ## Dependences ##
 
