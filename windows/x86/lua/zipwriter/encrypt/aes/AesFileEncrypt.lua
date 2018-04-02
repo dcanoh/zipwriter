@@ -9,7 +9,7 @@ local crypto, openssl
 crypto = prequire "crypto"
 if not crypto then openssl = require "openssl" end
 
-local utils  = require "ZipWriter.utils"
+local utils  = require "zipwriter.utils"
 local string = require "string"
 local math   = require "math"
 local table  = require "table"

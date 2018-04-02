@@ -1,7 +1,8 @@
 [zipwriter]
 author    = Alexey Melnichuk <alexeymelnichuck@gmail.com>
 date      = 2018/04/01
-version   = 0.1.2
+version   = 0.1.6
 windows   = x86:windows/x86/lua/zipwriter.lua,windows/x86/lua/zipwriter/utils.lua,windows/x86/lua/zipwriter/module.lua,windows/x86/lua/zipwriter/charset.lua,windows/x86/lua/zipwriter/bit.lua,windows/x86/lua/zipwriter/binary_converter.lua,windows/x86/lua/zipwriter/win/cp.lua,windows/x86/lua/zipwriter/encrypt/aes.lua,windows/x86/lua/zipwriter/encrypt/aes/AesFileEncrypt.lua
+depends   = zlib
 source    = https://github.com/moteus/ZipWriter
 mantainer = lide team

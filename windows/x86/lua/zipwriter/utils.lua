@@ -1,4 +1,4 @@
-local bit = require "numberbook.deps.ZipWriter.bit"
+local bit = require "zipwriter.bit"
 
 local lua_version do
 
@@ -25,8 +25,8 @@ local LUA_VER_NUM = LUA_MAJOR * 100 + LUA_MINOR
 local IS_WINDOWS = (package.config:sub(1,1) == '\\')
 
 local DEFAULT_LOCAL_CP = 'utf-8'
-if IS_WINDOWS then DEFAULT_LOCAL_CP = require("numberbook.deps.ZipWriter.win.cp").GetLocalCPName() end
-local DEFAULT_CP_CONV = require "numberbook.deps.ZipWriter.charset" .convert
+if IS_WINDOWS then DEFAULT_LOCAL_CP = require("zipwriter.win.cp").GetLocalCPName() end
+local DEFAULT_CP_CONV = require "zipwriter.charset" .convert
 
 local function lshift(v, n)
   return math.floor(v * (2 ^ n))
