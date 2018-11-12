@@ -20,8 +20,8 @@ function LOAD(fname)
   return enc
 end
 
-local ZipWriter = require "ZipWriter"
-local zutils    = require "ZipWriter.utils"
+local ZipWriter = require "zipwriter"
+local zutils    = require "zipwriter.utils"
 local lunit     = require "lunit"
 local tutils    = require "utils"
 local TEST_CASE = tutils.TEST_CASE
