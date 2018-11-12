@@ -39,7 +39,7 @@ build_script:
   - set PATH=%LIDE_PATH%;
 
 test_script:
-- cd c:\projects\lide-http
+- cd c:\projects\zipwriter
 - lide install zipwriter 0.1.6
   
   # Simulate lide's package.path and package.cpath on default lua5.1 interpreter
